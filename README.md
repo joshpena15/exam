@@ -19,6 +19,29 @@ RESPONSES:
 500 - Internal Server Error
 ```
 
+## LOGIN - POST
+```
+URL:              /kumu_exam/register  
+REQUEST BODY:
+{
+    "username": "sample",
+    "password": "P@ssw0rd123"
+}
+
+RESPONSES:
+200 - OK
+{
+    "response": "User Exists"
+}
+
+200 - OK
+{
+    "response": "Invalid Credentials"
+}
+
+422 - Unprocessable Entity
+```
+
 
 ## GET USER LIST - POST
 ```

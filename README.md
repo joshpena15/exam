@@ -85,7 +85,7 @@ RESPONSES:
 ```
 
 
-#MYSQL SCHEMA
+# MYSQL SCHEMA
 ```
 ** Run the followinf MySQL Script to create Database
 -- phpMyAdmin SQL Dump

@@ -14,6 +14,7 @@
 			echo json_encode($response);
 			
 		} else {
+            header('Content-type:application/json;charset=utf-8');
 			$response = array("response" => "Invalid Credentials");
             error_log("Invalid Credentials", 0);
 			echo json_encode($response);

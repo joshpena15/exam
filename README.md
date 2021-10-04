@@ -21,7 +21,7 @@ RESPONSES:
 
 ## LOGIN - POST
 ```
-URL:              /kumu_exam/register  
+URL:              /kumu_exam/login  
 REQUEST BODY:
 {
     "username": "sample",

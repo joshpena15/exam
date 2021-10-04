@@ -84,7 +84,6 @@ RESPONSES:
 422 - Maximum Queries Reached
 ```
 
-
 # MYSQL SCHEMA
 ```
 ** Run the followinf MySQL Script to create Database
@@ -155,5 +154,11 @@ CREATE TABLE IF NOT EXISTS `credentials` (
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+```
+
+# HAMMING DISTANCE
+```
+go to /kumu_test/hamming.html and open browser console.
 
 ```

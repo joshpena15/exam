@@ -38,7 +38,11 @@
 				
 				curl_close($ch);
 				
-				return json_decode($response);
+				if($response === ""){
+					return json_encode(array("message" => "User not Found"));
+				} else {
+					return $response;
+				}
 			
 			} catch (PDOException $e) {
 				error_log($e->getMessage(), 0);
